@@ -2,6 +2,7 @@ class Book
 {
 	private int bookId;
 	private String name;
+<<<<<<< HEAD
 	private float price;
 	
 	public void getBookId()
@@ -45,3 +46,13 @@ class Book
 	}
 	
 
+=======
+	private int price;
+	private String author;
+	
+	public void setauthor(String authorname)
+	{
+		this.authorname = authorname;
+	}
+}
+>>>>>>> 07e5f87fe31d478a088a688801519718b7510b59
