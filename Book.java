@@ -35,6 +35,11 @@ class Book
 	{
 		return name;
 	}
+	
+	public void display()
+	{
+		System.out.println("Book");
+	}
 			
 		
 	}
